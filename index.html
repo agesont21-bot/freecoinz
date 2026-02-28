@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Faucet - Earn Free Litecoin (LTC) Now</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        /* الألوان والهوية البصرية مستخرجة من صورة الموقع الأصلية image_2.png */
+        :root {
+            --bg-dark: #070a0f; /* لون الخلفية الداكنة */
+            --card-blue: #0f1621; /* لون البطاقة */
+            --accent-purple: #7216f4; /* اللون الأرجواني للنصوص */
+            --accent-blue: #1b63f2; /* اللون الأزرق للزر والأيقونة */
+            --text-main: #ffffff; /* اللون الأبيض للنصوص الرئيسية */
+            --text-gray: #94a3b8; /* اللون الرمادي للنصوص الفرعية */
+            --border-color: #1a222f; /* لون الحدود */
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .promo-card {
+            text-align: center;
+            background-color: var(--card-blue);
+            padding: 40px 30px;
+            border-radius: 20px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+            max-width: 450px;
+            width: 100%;
+            position: relative;
+        }
+
+        /* شعار Litecoin بناءً على image_3.png */
+        .ltc-logo-container {
+            width: 70px;
+            height: 70px;
+            background-color: var(--accent-blue);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: -75px auto 25px auto; /* لرفعه فوق البطاقة */
+            box-shadow: 0 0 20px rgba(27, 99, 242, 0.5);
+            position: relative;
+            z-index: 2;
+        }
+
+        /* رمز الـ L المائل من image_3.png */
+        .ltc-symbol {
+            color: white;
+            font-size: 2.8rem;
+            font-weight: 800;
+            font-style: italic;
+            transform: skewX(-5deg);
+        }
+
+        /* العنوان الرئيسي المطابق لـ image_2.png */
+        h1 {
+            font-size: 2.3rem;
+            line-height: 1.1;
+            margin: 0 0 15px 0;
+            font-weight: 800;
+        }
+
+        h1 .highlight {
+            color: var(--accent-purple);
+        }
+
+        /* عبارة تحفيزية قوية (Motivational Headline) */
+        .headline-promo {
+            font-size: 1.3rem;
+            color: #d1d5db;
+            font-weight: 600;
+            margin-bottom: 25px;
+            background: linear-gradient(to right, #ffffff, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* الوصف باللغة الإنجليزية */
+        .description {
+            color: var(--text-gray);
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 35px;
+            max-width: 350px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* الزر التحفيزي (Call-to-Action) */
+        .btn-claim {
+            display: block;
+            width: 100%;
+            padding: 18px;
+            background: linear-gradient(135deg, #1d4ed8 0%, var(--accent-blue) 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 1.25rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 20px -5px rgba(27, 99, 242, 0.5);
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-claim:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 25px -5px rgba(27, 99, 242, 0.7);
+        }
+
+        .footer-note {
+            display: block;
+            margin-top: 15px;
+            font-size: 0.8rem;
+            color: #4b5563;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="promo-card">
+        <div class="ltc-logo-container">
+            <span class="ltc-symbol">Ł</span>
+        </div>
+
+        <h1>Earn <span class="highlight">Free Crypto</span> Every Day</h1>
+        
+        <div class="headline-promo">Turn your time into Litecoin - Instantly!</div>
+
+        <p class="description">
+            Start earning cryptocurrency today through our secure
+          
