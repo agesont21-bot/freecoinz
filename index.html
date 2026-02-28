@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Faucet - Earn Free Litecoin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-dark: #05080b; /* مطابق لخلفية موقعك */
+            --card-blue: #0f172a; /* مطابق لبطاقة الدخول في موقعك */
+            --ltc-blue: #345d9d; /* لون عملة لايتكوين الرسمي */
+            --btn-gradient: linear-gradient(90deg, #3b82f6 0%, #6366f1 100%); /* تدرج أزرق احترافي */
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-dark);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .promo-card {
+            text-align: center;
+            padding: 40px 30px;
+            border-radius: 24px;
+            background-color: var(--card-blue);
+            border: 1px solid #1e293b;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+            max-width: 420px;
+            width: 90%;
+            position: relative;
+        }
+
+        /* شعار اللايتكوين */
+        .coin-icon {
+            font-size: 3.5rem;
+            color: #bebebe;
+            margin-bottom: 20px;
+            filter: drop-shadow(0 0 10px rgba(190, 190, 190, 0.3));
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            margin: 10px 0;
+            font-weight: 800;
+            letter-spacing: -1px;
+        }
+
+        .highlight {
+            color: #3b82f6;
+        }
+
+        .description {
+            color: #94a3b8;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 35px;
+        }
+
+        /* الزر التحفيزي */
+        .btn-claim {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 18px 30px;
+            background: var(--btn-gradient);
+            color: white;
+            text-decoration: none;
+            border-radius: 14px;
+            font-weight: bold;
+            font-size: 1.3rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
+        }
+
+        .btn-claim:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(59, 130, 246, 0.6);
+            filter: brightness(1.1);
+        }
+
+        .features-list {
+            margin-top: 25px;
+            font-size: 0.9rem;
+            color: #64748b;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .feature {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .feature i {
+            color: #10b981; /* لون أخضر للعلامات الصح */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="promo-card">
+        <div class="coin-icon">
+            <i class="fa-solid var(--fa-ltc-icon)">L</i> 
+            <i class="fab fa-litecoin"></i>
+        </div>
+
+        <h1>Mars <span class="highlight">Faucet</span></h1>
+        
+        <p class="description">
+            Your journey to the moon starts here! <br>
+            <strong>Claim free crypto</strong> every minute with high rewards and instant payouts.
+        </p>
+
+        <a href="https://marsfaucet.zya.me" target="_blank" class="btn-claim">
+            START EARNING NOW <i class="fas fa-rocket"></i>
+        </a>
+
+        <div class="features-list">
+            <div class="feature"><i class="fas fa-check-circle"></i> Instant Pay</div>
+            <div class="feature"><i class="fas fa-check-circle"></i> No Minimum</div>
+            <div class="feature"><i class="fas fa-check-circle"></i> 100% Free</div>
+        </div>
+    </div>
+
+</body>
+</html>
